@@ -1,0 +1,13 @@
+CSS Display
+-----------
+1) Inline Elements
+------------------
+<a>,<span>,<input>,<img>
+
+2) Block elements
+-----------------
+<h1> , <div> , <p> , <section> 
+ 
+3) Display 
+----------
+inline , block , none , inline-block , flex

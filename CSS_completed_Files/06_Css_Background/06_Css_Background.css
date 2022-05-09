@@ -1,0 +1,52 @@
+body{
+    font-family: Arial,sans-serif;
+
+}
+#bg-color{
+    background-color: teal;
+}
+#bg-image{
+    box-shadow: 0 0 10px black;
+    padding: 15px;
+    width: 500px;
+    background-image: url(../Image/pexels-dominika-roseclay-1036808.jpg);
+    color: white;
+}
+#bg-repeat{
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    background-color: lightsalmon;
+    background-image: url(../Image/istockphoto-1315940628-170667a.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: scroll;
+}
+#bg-position{
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    background-color: lightsalmon;
+    background-image: url(../Image/istockphoto-1315940628-170667a.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: scroll;
+}
+#bg-attachment{
+    height: 250px;
+    box-shadow: 0 0 10px black;
+    background: white url("../Image/pexels-dominika-roseclay-1036808.jpg") no-repeat scroll center;
+}
+#bg-size{
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    background-image: url("../Image/pexels-evg-kowalievska-1128207.jpg");
+    background-size: cover;
+}
+#gradient{
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    background: linear-gradient(45deg,black,red,black);
+}

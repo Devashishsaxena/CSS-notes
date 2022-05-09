@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS PART 2</title>
+    <style>
+        input[type="text"]{
+            background-color: blueviolet;
+        }
+        input[type="password"]{
+            background-color: limegreen;
+        }
+        input[type="submit"]{
+            background-color: orangered;
+        }
+        input[type="text1"]{
+            background-color: blueviolet;
+            transition: all 0.5s;
+        }
+        input[type="text1"]:focus{
+            background-color: orangered;
+            color: white;
+            font-size: 18px;
+        }
+        input[type="password1"]{
+            background-color: limegreen;
+            transition: all 0.5s;
+        }
+        input[type="password1"]:focus{
+            background-color: yellowgreen;
+            color: white;
+            font-size: 18px;
+        }
+        input[type="submit"]{
+            background-color: orangered;
+            transition: all 0.5s;
+        }
+        input[type="submit"]:hover{
+            background-color: purple;
+            color: white;
+            padding: 14px 25px ;
+        }
+    </style>
+</head>
+<body>
+    <!----Attribute Selectors------>
+    <form>
+        <label>User Name</label>
+        <input type="text">
+        <br>
+        <label>Password</label>
+        <input type="password">
+        <br>
+        <input type="Submit" value="submit">
+    </form>
+    <!-----Pesudo----->
+    <form>
+        <label>User Name</label>
+        <input type="text1">
+        <br>
+        <label>Password</label>
+        <input type="password1">
+        <br>
+        <input type="Submit" value="submit">
+    </form>
+</body>
+</html> 

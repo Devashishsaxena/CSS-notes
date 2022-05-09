@@ -1,0 +1,41 @@
+ul{
+    background-color: lightgray;
+}
+ul li{
+    background-color: orange;
+}
+ol{
+    background-color: yellowgreen;
+}
+ol li{
+    background-color: red;
+}
+ 
+ol .part1{
+    background-color: lightgray;
+}
+ol #orange{
+    background-color: orange;
+}
+ol  #blue{
+    background-color: blueviolet;
+}
+
+ol .part2 li:first-child{
+    background-color: orange;
+}
+ol .part2 li:last-child{
+    background-color: blueviolet;
+}
+ol .part2 li:nth-child(2){
+    background-color: aqua;
+} 
+ol .part2 li:nth-child(3){
+    background-color: aquamarine;
+}
+ol .part3 li:nth-child(even){
+background-color: orange;
+}
+ol .part3 li:nth-child(odd){
+    background-color: blueviolet;
+}

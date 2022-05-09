@@ -1,0 +1,17 @@
+Css Border
+---------
+1) Border-Width: px,cm,mm
+2) Border-Style: solid,dotted,dashed,double
+3) Border-Color: text,hex,rgb
+
+<!-----shortcut---->
+
+Border: Width Style color;
+
+4) Border-right: width style color;
+5) Border-left: width style color;
+6) Border-top: width style color;
+7) Border-bottom: width style color;
+8) Border-radius:px,%
+9) Border-radius: 50px 0 0 25px;
+		   TL  TR BR BL

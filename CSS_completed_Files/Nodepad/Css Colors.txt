@@ -1,0 +1,30 @@
+CSS Colors
+------------
+1) Textual color -> red, green, blue 
+2) RGB-> 
+Ex: rgb(red,green,blue)
+Range: 0-255
+white: rgb(255,255,255);
+black: rgb(0,0,0)
+3) HEXA
+EX: #rrggbb
+ Range: 00-ff
+ white:#ffffff
+ Black:#000000
+4) HSL (hue,saturation,lightness)
+EX: hs1 (hue,saturation,lightness)
+hue: degree on color wheel => 0-360
+     Saturation: darkness % => 0-100%
+     lightness: lightness % => 0-100%
+
+Ex: hs1(60,80%,40%);
+
+5) RGBA
+=> Same as RGB extra Alpha =>0-1
+   0 -> Full Transparent
+   1 -> Full Color
+   Syntax : rgba(0,0,0,0.5); 
+6) HSLA
+
+Syntax: hsla (60,80%,90%,0.5);
+

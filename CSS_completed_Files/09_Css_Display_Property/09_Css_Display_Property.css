@@ -1,0 +1,47 @@
+body{
+    font-family: Arial,sans-serif;
+}
+div{
+    margin: 10px;
+}
+h1{
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+}
+span{
+    background-color: orange;
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+a{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    display: block;
+}
+
+h1{
+    background-color: darkred;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    display: none;
+}
+.parent{
+background-color: lightgray;
+padding: 15px;
+}
+.child{
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding: 15px;
+    width: 200px;
+    display: inline-block;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+

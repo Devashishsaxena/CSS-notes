@@ -1,0 +1,8 @@
+Flex Box
+--------
+Display:flex
+flex-direction:row/column
+flex:1
+align-items(main-axis) : flex-start / flex-end/ center
+justify-content(cross-axis): flex-start/flex-end/center
+				space-between/around/evenly

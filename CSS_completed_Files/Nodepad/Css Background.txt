@@ -1,0 +1,13 @@
+CSS Background
+--------------
+1) Background-color: Hex,RGB,text etc
+2) Background-Image: url("");
+3) Background-repeat: no-repeat,repeat-x,repeat-y
+4) Background-Position: top,left,right,bottom,center
+5) Background-attachment: scroll,fixed
+
+All in one 
+
+6) Background: color image repeat attachment position
+7) Background-size: cover;
+

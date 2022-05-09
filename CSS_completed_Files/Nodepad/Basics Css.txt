@@ -1,0 +1,8 @@
+Ways Of Adding Styles
+---------------------
+1) Inline Approach -> Particular Tag (not Recomanded)
+Ex: "style"atrribute
+2) Internal Approach -> Particular Webpage
+Ex: <style> Tag in the <head> section
+3) External Approach -> Particular Website
+Ex: 

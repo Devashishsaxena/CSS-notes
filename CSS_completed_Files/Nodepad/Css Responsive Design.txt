@@ -1,0 +1,11 @@
+Responsive Design
+-----------------
+-> View Port
+-> Media Queries
+-> Use Fluid Dimensions Instead of Fixed
+-> Mobile First Approach
+
+-> Mobile  -> Max-Width:0px-500px
+-> Tablet ->  Max-Width:501px-768px
+-> Laptop ->  Max-Width:769px-1200px
+-> wide   ->  Max-Width:1201px

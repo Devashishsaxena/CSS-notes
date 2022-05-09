@@ -1,0 +1,11 @@
+Css Selectors
+-------------
+1) Tag Selectors
+2) Id Selectors -> Not Repeated 
+3) Class Selectors -> repeated 
+4) Attribute Selectors -> [] symbol 
+5) Pseudo Selectors -> 
+ 	Selector:event{
+	//styles;
+}
+6) Mixed Selectors ->

@@ -1,0 +1,62 @@
+ body{
+     height: 5000px;
+ }
+ .box{
+     width: 100px;
+     height: 100px;
+     box-shadow: 0 0 10px black;
+     margin: 50px;
+     border: 10px solid white;
+     
+ }
+/*---------default positiion of any html element -----*/
+ .box1{
+     background-color: red;
+     position: static;
+     left:450px;
+      
+ }
+ /*--------this positioned relative to its own------*/
+ .box2{
+    background-color: limegreen;
+    position: relative;
+    left:500px;
+    top: 450px; 
+}
+/*---this is to fix an element in the given position---*/
+.box3{
+    background-color: blue;
+    position: fixed;
+    left: 900px;
+    z-index: 1;
+}
+/*--this is to sticky any element in the given position----*/
+.box4{
+    background-color: orangered;
+    position: sticky;
+    top: 0;
+}
+.container{
+      width: 500px;  
+      height: 500px;
+      background-color: rgba(0,0,0,0.5);
+      position: relative;
+      left: 500px;
+      z-index: 0.5;
+}
+h2{
+    font-family: Arial,sans-serif;
+    color: white;
+    background-color: orangered;
+}
+/*--this positioned relative to its parents----*/
+.box5{
+    background-color: yellow;
+    position: absolute;
+}
+ /*--this positioned relative to its parents----*/
+.box5-1{
+    background-color: greenyellow;
+    position: absolute;
+    left: 200px;
+}

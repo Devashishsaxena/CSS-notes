@@ -1,0 +1,12 @@
+CSS POSITIONS
+-------------
+
+1) Static: default positiion of any html element (static)
+2) Relative: this positioned relative to its own
+3) Absolute: this positioned relative to its parents
+4) Fixed: this is to fix an element in the given position
+5) Sticky: this is to sticky any element in the given position 
+
+top,right,bottom,left
+
+Z-index:0 
